@@ -1,19 +1,21 @@
 # ParallelUniverse
-WIP, may/probably will have bugs
+Pretty much finished, if not finished.
 
 Each layer in the map is considered a "universe."
 Default layer is universe 0, layer 1 is universe 1, layer 2 is universe 2, etc.
-Notes in the last layer are ignored.
 
 The visiblity of notes will depend on which universe they are in.
 Universes are divided into one million ms (16.67 min) equivalent segments in position.
 
-The "Hide Layer" button adds SVs so that notes in the selected layer are moved to the correct universe.
-The "Unhide Layer" button removes the SVs.
-The "Move to Layer" button moves selected notes to the selected layer. (This is already an editor feature, but it's easier to click this button.)
+The "Update Layer" button adds SVs so that notes in the selected layer are moved to the correct universe.
+
+The "Restore Layer" button removes the SVs.
+
+"Update All" and "Restore All" do the logical thing to do (probably).
 
 The teleport buttons add SVs to teleport between universes.
 
-The "Increase SV by .5" button is just there.
+The "Clean SVs" button removes redundant SVs
 
-The "Hide Layers" toggle changes the visibility of layers to reflect the gameplay, also prevents you from undoing actions lmao.
+The "Place Teleport Earlier" toggle determines whether a teleport starts or ends at a selected note.
+The "Adjust Layer Visibility" toggle changes the visibility of layers in the editor to reflect gameplay.
